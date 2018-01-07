@@ -1,0 +1,39 @@
+Thread 0xfff83020
+
+  locals:
+
+Thread 0xfff8aa98
+
+  locals:
+
+Thread 0xfff8ac80
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Unknown Source)
+
+  locals:
+    objectId=0xfffa78c0, line=1
+    objectId=0xfffa78b0, line=1
+    objectId=0xfffa78c0, line=2
+    objectId=0xfff8ac80, line=3
+    objectId=0xfffa78e0, line=3
+
+Thread 0xfff8ae60
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Unknown Source)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Unknown Source)
+
+  locals:
+    objectId=0xfffa78f0, line=1
+    objectId=0xfff8ae60, line=2
+    objectId=0xfffa78f0, line=2
+
+Thread 0xfff8b0b8
+  at java.lang.OutOfMemoryError.<init>()V (Unknown Source)
+  at com.zz.Heap03.main([Ljava/lang/String;)V (Heap03.java:17)
+
+  locals:
+    objectId=0xfffa7a38, line=1
+    objectId=0xfffa7a48, line=1
+
